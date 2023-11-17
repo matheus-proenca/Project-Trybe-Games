@@ -130,7 +130,7 @@ Neste projeto, verificamos se você é capaz de:
 
     - No menu à direita, clique no _link_ **"Assignees"** e escolha **o seu usuário**;
 
-    - No menu à direita, clique no _link_ **"Reviewers"** e digite `students`, selecione o time `tryber/students-sd-0x`.
+    - No menu à direita, clique no _link_ **"Reviewers"** e digite `students`, selecione o time `tryber/students-sd-030-csharp`.
 
   Caso tenha alguma dúvida, [aqui tem um video explicativo](https://vimeo.com/362189205).
 
@@ -486,7 +486,7 @@ _Implemente o método `TestGetGamesPlayedBy()` no arquivo `src/TrybeGames.Test/T
 Ao finalizar e submeter o projeto, não se esqueça de avaliar sua experiência preenchendo o formulário.
 **Leva menos de 3 minutos!**
 
-[Formulário de avaliação do projeto](https://be-trybe.typeform.com/to/ZTeR4IbH)
+[Formulário de avaliação do projeto](https://be-trybe.typeform.com/to/ZTeR4IbH#cohort_hidden=CH30-CSHARP&template=betrybe/csharp-0x-projeto-trybe-games)
 
 </details>
   
