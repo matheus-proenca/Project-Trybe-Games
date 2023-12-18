@@ -125,6 +125,7 @@ public class TrybeGamesController
     {
         // implementar
         List<Player> NewPlayers = database.Players;
+        Console.WriteLine("Escreva o nome do jogador");
         string NamePlayer = Console.ReadLine();
         int PlayerCount = NewPlayers.Count();
 
@@ -136,6 +137,7 @@ public class TrybeGamesController
     {
         // implementar
         List<GameStudio> NewGameStudio = database.GameStudios;
+        Console.WriteLine("Escreva o nome do estudio de jogos");
         string GameStudioName = Console.ReadLine();
         int GameStudioCount = NewGameStudio.Count();
 
@@ -147,8 +149,12 @@ public class TrybeGamesController
     {
         // implementar
         List<Game> NewGame = database.Games;
+        Console.WriteLine("Escreva o nome do jogo");
         string gameName = Console.ReadLine();
+        Console.WriteLine("Coloque a data de lançamento");
         DateTime gameRelease = DateTime.Parse(Console.ReadLine());
+        Console.WriteLine("Coloque o tipo do jogo");
+        PrintGameTypes();
         int gameTypeNum = Convert.ToInt32(Console.ReadLine());
         int GameCount = NewGame.Count();
 
