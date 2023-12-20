@@ -26,7 +26,7 @@ public class TrybeGamesDatabase
     public List<Game> GetGamesOwnedBy(Player playerEntry)
     {
         // Implementar
-        throw new NotImplementedException();
+        return Games.Where(game => playerEntry.GamesOwned.Contains(game.Id)).ToList();
     }
 
 
