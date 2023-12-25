@@ -155,10 +155,10 @@ public class TrybeGamesController
         DateTime gameRelease = DateTime.Parse(Console.ReadLine());
         Console.WriteLine("Coloque o tipo do jogo");
         PrintGameTypes();
-        int gameTypeNum = Convert.ToInt32(Console.ReadLine());
+        GameType gameTypeNum = (GameType)Enum.Parse(typeof(GameType), Console.ReadLine());
         int GameCount = NewGame.Count();
 
-        NewGame.Add(new Game { Name = gameName, Id = GameCount + 1, GameType = (GameType)gameTypeNum, ReleaseDate = gameRelease });
+        NewGame.Add(new Game { Name = gameName, Id = GameCount + 1, GameType = gameTypeNum, ReleaseDate = gameRelease });
     }
 
     public void ChangeGameStudio(Game game)
